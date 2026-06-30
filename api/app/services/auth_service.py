@@ -1,5 +1,5 @@
-from app.models.usuario import Usuario
-from app.database.database import bcrypt
+from api.app.models.usuario import Usuario
+from api.app.database.database import bcrypt
 
 class AuthService:
   @staticmethod

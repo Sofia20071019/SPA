@@ -1,4 +1,4 @@
-from app.database.database import db
+from api.app.database.database import db
 from datetime import datetime
 
 class Usuario(db.Model):
